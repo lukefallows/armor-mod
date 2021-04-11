@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+
+license="The Unlicence"
+
+issueTrackerURL="https://github.com/lukefallows/armor-mod/issues"
+
+[[mods]]
+modId="armor"
+
+version="${file.jarVersion}"
+
+displayName="Armor"
+displayURL="https://github.com/lukefallows/armor-mod"
+# logoFile="logo.png"
+
+authors="Luke"
+
+description='''
+Armor - extra armor for Minecraft.'''
