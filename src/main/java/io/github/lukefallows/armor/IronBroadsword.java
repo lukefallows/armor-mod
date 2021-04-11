@@ -26,7 +26,7 @@ public class IronBroadsword extends SwordItem {
 
 	public static class StartupCommon {
 
-		public static ItemGroup ARMOR_GROUP = new ItemGroup("armor_group") {
+		public static ItemGroup ARMOR_GROUP = new ItemGroup("armor") {
 			@Override
 			public ItemStack createIcon() {
 				return new ItemStack(Items.IRON_HORSE_ARMOR);
