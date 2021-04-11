@@ -1,11 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "group": "armor",
-  "ingredients": [
-    {"item":"minecraft:iron_sword"},
-    {"item": "minecraft:iron_ingot"},
-    {"item": "minecraft:iron_ingot"}
+  "pattern": [
+    "  a",
+    " a ",
+    "c  "
   ],
+  "key": {
+    "a": {
+       "item": "minecraft:iron_ingot"
+    },
+    "c": {
+       "item": "minecraft:iron_sword"
+     }
+  },
   "result": {
     "item": "armor:iron_broadsword"
   }
