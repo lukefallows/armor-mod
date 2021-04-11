@@ -12,7 +12,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class IronBroadsword extends SwordItem {
 
 	public static final int MAX_STACK_SIZE = 1;
-	public static final int ATTACK_DAMAGE = 15;
+	public static final int ATTACK_DAMAGE = 7;
 	public static final float ATTACK_SPEED = -1.9f;
 
 	public IronBroadsword(ItemGroup group, String name) {
